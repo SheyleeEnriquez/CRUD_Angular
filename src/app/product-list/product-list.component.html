@@ -1,0 +1,28 @@
+<h2>Lista de Productos</h2>
+
+<label for="search">Buscar por nombre:</label>
+<input class="input" id="search" [(ngModel)]="searchTerm" placeholder="Nombre del producto">
+
+<table class="product-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of filterProducts()">
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+      <td>${{ product.price }}</td>
+      <td>
+        <button class="edit-button" (click)="editProduct(product.id)">Editar</button>
+        <button class="delete-button" (click)="deleteProduct(product.id)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="add-button" (click)="navigateToAddProduct()">Agregar Producto</button>

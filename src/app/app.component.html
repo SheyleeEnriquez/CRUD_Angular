@@ -1,0 +1,11 @@
+<body>
+<h1>CRUD en Angular</h1>
+<nav class="nav-container">
+  <a class="button" routerLink="/product-list" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Lista de Productos</a> |
+  <a class="button" routerLink="/product-add" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Agregar Producto</a> |
+  <a class="button" routerLink="/product-edit" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Editar Producto</a> |
+  <a class="button" routerLink="/product-delete" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Eliminar Producto</a>
+</nav>
+<app-loading-screen *ngIf="isLoading"></app-loading-screen>
+<router-outlet *ngIf="!isLoading"></router-outlet>
+</body>

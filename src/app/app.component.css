@@ -1,0 +1,265 @@
+.button {
+  box-shadow: inset 1px 1px 0px 0px #333;
+  background: #DDEFFF;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #424242;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  outline: 0;
+  font-family: 'Cascadia Mono', Courier, monospace;
+}
+
+
+.nav-container {
+  text-align: center; 
+  margin-bottom: 20px; 
+  
+}
+.activebutton {
+  box-shadow: inset 0 1px 0 0 #dcecfb;
+  background: #bddbfa linear-gradient(to bottom, #a0d0ff 5%, #80b5ea 100%);
+  border: 1px solid #84bbf3;
+  color: #fff;
+  text-shadow: 0 1px 0 #333;
+}
+
+/*Estilos Lista*/
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 25px;
+  width: 95%;
+  font-family: 'Centaur', Courier, monospace;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  color:#6a6a6a;
+  font-size: 18px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+  color: #333;
+}
+
+.product-table td {
+  vertical-align: middle;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  font-family: 'Cascadia Mono', Courier, monospace;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.add-button {
+  background-color: #62c4cd; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-family: 'Cascadia Mono', Courier, monospace;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.add-button:hover {
+  background-color: #a04582; 
+}
+
+
+/*Editar*/
+.edit-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  font-family: 'Cascadia Mono', Courier, monospace;
+  font-size: 17px;
+}
+
+.input{
+  margin-left: 25px;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  font-family: 'Cascadia Mono', Courier, monospace;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/*Añadir*/
+.add-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+}
+p{
+  font-family: 'Cascadia Mono', Courier, monospace;
+  margin-left: 25px;
+}
+
+/*Eliminar*/
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Cascadia Mono', Courier, monospace;
+  margin-left: 25px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.btn2{
+  margin-left: 25px;
+}
+.btn-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #e53935;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Segoe Print', Courier, monospace;
+}
